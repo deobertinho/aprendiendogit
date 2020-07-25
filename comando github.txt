@@ -1,6 +1,10 @@
 //Generar la Clave
 ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
-//
+//buscar el archivo que contiene la Clave
+c:\user\"usario"\.ssh\id_rsa.pub
+//se coia la clave, se habre github y se va al apartado de configuraciones
+//SSH and GPG key y se agrega una nueva ssh key, se pega la clave, se coloca nombre y se guarda
+
 
 
 //Configurar la conexion con github
