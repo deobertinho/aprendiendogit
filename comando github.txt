@@ -4,8 +4,11 @@ ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
 c:\user\"usario"\.ssh\id_rsa.pub
 //se coia la clave, se habre github y se va al apartado de configuraciones
 //SSH and GPG key y se agrega una nueva ssh key, se pega la clave, se coloca nombre y se guarda
-
-
+// se inicializa el agente en git bash 
+eval $(ssh-agent -s)
+//se agrega las clave generada
+ssh-add ~/.ssh/id_rsa
+//pedira la palabra clave
 
 //Configurar la conexion con github
 git remote add origin git@github.com:deobertinho/aprendiendogit.git
