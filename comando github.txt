@@ -1,2 +1,12 @@
+//Generar la Clave
+ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
+//
+
+
+//Configurar la conexion con github
 git remote add origin git@github.com:deobertinho/aprendiendogit.git
+//Subir por primera vez 
 git push -u origin master
+//Subir despues de la rimera vez
+git push
+
