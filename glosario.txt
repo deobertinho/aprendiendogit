@@ -1,0 +1,14 @@
+Coerción: es convertir un valor a otro.
+
+Hay dos tipos de coerción:
+implicita: Cuando el lenguaje nos auda a cambiar el tipo
+var a = 4 + "7"
+a = 47 //el valor de 7 lo toma como una string y solo concatena
+
+var b = 4 * "7"
+b = 28 // Multiplica y a 7 lo convierte en número
+
+explcita: Cuando obligamos a que el tipo cambie
+var c = String(b); //Convertimos a b en una cadena
+
+var d = Number(c); //Convertimos a C en un número
